@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="./main.css">
 
     <!-- Fonts -->
-
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@200&display=swap" rel="stylesheet">
+    
     <!-- Icons -->
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     
@@ -20,46 +21,49 @@
 
     <!--NAVBAR-->
     
-    <div class="fixed-top">
+    <div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
           <div class="container">
             <a href="#" title="Bootstrap" class="navbar-brand"> 
               <img src="./img/logo-site.png" width="40" class="store-image" alt="Bootstrap" />
             </a>
 
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarContainer" aria-controls="navbarContainer" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarContainer" aria-controls="navbarContainer" aria-expanded="false" aria-label="Toggle navigation" style="border-color: rgba(0, 0, 0, 0);">
               <span class="navbar-toggler-icon"></span>
             </button>
             
-            <div class="collapse navbar-collapse justify-content-end" id="navbarContainer">
-              <form id="search_mini_form" class="d-lg-none d-md-block" method="get" action="/search">
+              <div class="collapse navbar-collapse justify-content-end" id="navbarContainer">
+               <form id="search_mini_form" class="d-lg-none d-md-block" method="get" action="/search">
                 <div class="input-group mb-3" style="margin-top: 10px;">
                     <input class="form-control mr-sm-2" type="search" placeholder="Search for products" aria-label="Search">
                   <button type="submit" class="btn btn-default"><i class="fa fa-search" aria-hidden="true" style="color: rgba(255, 255, 255, 0.938);"></i></button>
                 </div>
-              </form>
-            
-            <ul class="nav navbar-nav float-center nav-top">
+               </form>
+              
+                 <ul class="nav navbar-nav float-center nav-top" style="display: flex; align-items: center;">
                 
+                <li>
+                  <a id="cart-link" href="#" class="trsn nav-link" title="View/Edit Cart">
+                    <span id="nav-bar-cart" class="nav-products">
+                      <button type="button" class="btn btn-secondary">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i> Produtos <span class="badge badge-light">0</span>
+                      </button>
+                     | R$ 0</span>
+                  </a>
+                </li>
+
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle trsn nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="nav-link">
-                     <span><i class="fa fa-globe" aria-hidden="true"></i></span>
-                     <span class="nav-lang">Português (Brasil)</span>
-                     <span class="caret"></span>
+                    <span><i class="fa fa-globe" aria-hidden="true"></i></span>
+                    <span class="nav-lang">Português (Brasil)</span>
+                    <span class="caret"></span>
                   </a>
                   <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                     <button class="dropdown-item" type="button">English</button>
+                    <button class="dropdown-item" type="button">English</button>
                   </div>
                 </li>
-                
-                <li >
-                  <a id="cart-link" href="#" class="trsn nav-link" title="View/Edit Cart">
-                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                    <span id="nav-bar-cart" class="nav-products"><span class="cart-size">0</span> Produtos | R$ 0</span>
-                  </a>
-                </li>
       
-            </ul>
+                </ul>
             
 
             </div>
@@ -75,14 +79,9 @@
                      <a href="#" class="level-1 trsn nav-link" >Início</a>
                   </li>
     
-                  
                   <li class="nav-item">
                      <a href="#" class="level-1 trsn nav-link" >Assistência Técnica</a>
                   </li>
-
-                  <li class="nav-item">
-                    <a href="#" class="level-1 trsn nav-link" >Sobre nós</a>
-                 </li>
 
                  <li class="nav-item  ">
                     <a href="#" class="level-1 trsn nav-link" >Contato</a>
@@ -95,7 +94,7 @@
                 <ul class="navbar-nav navbar-toggler-right list-inline">
                     <form class="form-inline">
                         <input class="form-control mr-sm-2" type="search" placeholder="Search for products" aria-label="Search">
-                        <button type="button" class="btn btn-info"><i class="fa fa-search" aria-hidden="true"></i></button>
+                        <button type="button" class="btn btn-default"><i class="fa fa-search" aria-hidden="true" style="color: #17a2b8;"></i></button>
                     </form>
                 </ul>
               </div>
@@ -104,6 +103,18 @@
       </div>
 
       <!--FIM DA NAVBAR-->  
+
+      <!--INÍCIO DO SLIDE-->
+
+      <div class="jumbotron" style="text-align: center;">
+        <h1 class="display-4"><span class="text-active">KING</span> TECK<span style="font-size: 13px;">®</span></h1>
+        <p class="lead subtext">Você chegou!</p>
+        <p class="subtext">Seja bem-vindo (a) ao nosso site.</p>
+        <a class="btn btn-outline-info btn-lg" href="#" role="button">Quem somos nós?</a>
+      </div>
+
+      <!--FIM DO SLIDE-->
+      
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
