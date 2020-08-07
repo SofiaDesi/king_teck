@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@200&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
 
     <!-- Icons -->
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -27,7 +28,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
           <div class="container">
             <a href="#" title="Bootstrap" class="navbar-brand"> 
-              <img src="./img/logo-site.png" width="40" class="store-image" alt="Bootstrap" />
+              <img src="./img/logo-site.png" width="35" class="store-image" alt="Bootstrap" />
             </a>
 
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarContainer" aria-controls="navbarContainer" aria-expanded="false" aria-label="Toggle navigation" style="border-color: rgba(0, 0, 0, 0);">
@@ -47,7 +48,7 @@
                 <li>
                   <a id="cart-link" href="#" class="trsn nav-link" title="View/Edit Cart">
                     <span id="nav-bar-cart" class="nav-products">
-                     <button type="button" class="btn btn-secondary">
+                     <button type="button" class="btn btn-dark">
                       <i class="fa fa-shopping-cart" aria-hidden="true"></i> Produtos <span class="badge badge-light">0</span>
                     </button>
                     </span>
@@ -78,17 +79,11 @@
                 <ul class="navbar-nav mr-auto">
                   
                   <li class="nav-item">
-                     <a href="#" class="level-1 trsn nav-link" >Início</a>
-                  </li>
-                  <li>
-                      <span class="level-1 trsn nav-link">•</span>
+                     <a href="#" class="level-1 trsn nav-link" >Produtos</a>
                   </li>
                   <li class="nav-item">
                      <a href="#" class="level-1 trsn nav-link" >Assistência Técnica</a>
                   </li>
-                  <li>
-                    <span class="level-1 trsn nav-link">•</span>
-                </li>
                  <li class="nav-item  ">
                     <a href="#" class="level-1 trsn nav-link" >Contato</a>
                  </li>
@@ -100,7 +95,7 @@
                 <ul class="navbar-nav navbar-toggler-right list-inline">
                     <form class="form-inline">
                         <input class="form-control mr-sm-2" type="search" placeholder="Search for products" aria-label="Search" style="height: 35px;">
-                        <button type="button" class="btn btn-default"><i class="fa fa-search" aria-hidden="true" style="color: #4e057eea;"></i></button>
+                        <button type="button" class="btn btn-default"><i class="fa fa-search" aria-hidden="true" style="color: #17a2b8;"></i></button>
                     </form>
                 </ul>
               </div>
@@ -112,14 +107,186 @@
 
       <!--INÍCIO DO SLIDE-->
 
-      <div class="jumbotron" style="text-align: center; height: 80vh;">
+      <div class="jumbotron" style="height: 80vh;">
         <h1 class="display-4"><span class="text-active"> KING</span> TECK </h1>
         <p class="lead subtext">Você chegou!</p>
         <p class="subtext">Seja bem-vindo (a) ao nosso site.</p>
-        <a class="btn btn-dark btn-lg about-btn" href="#" role="button">QUEM SOMOS?</a>
+        <a class="btn btn-info btn-lg about-btn" href="#" role="button">QUEM SOMOS?</a>
       </div>
 
       <!--FIM DO SLIDE-->
+
+      <!--INÍCIO PRODUTOS-->
+
+      <section>
+          <div class="container">
+            <h1 class="title-buy">Produtos em destaque</h1>
+
+            <hr class="my-4">
+
+            <!--Carousel Wrapper-->
+              <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+                <!--Indicators-->
+                <ol class="carousel-indicators">
+                  <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+                  <li data-target="#multi-item-example" data-slide-to="1"></li>
+                  
+                </ol>
+                <!--/.Indicators-->
+
+                <!--Slides-->
+                <div class="carousel-inner" role="listbox">
+
+                  <!--First slide-->
+                  <div class="carousel-item active">
+
+                    <div class="col-md-3" style="float:left">
+                    <div class="card mb-2" style="border-color: rgba(0, 0, 0, 0);">
+                        <img class="card-img-top"
+                          src="./img/product-1.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Controle sem Fio - Dualshock 4 Vermelho - PS4</h5>
+                          <p class="card-text" style="font-weight: bold;">R$ 257,50.</p>
+
+                            <div class="progress" style="margin-bottom: 15px;">
+                              <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85% positivos</div>
+                            </div>
+                            <a class="btn btn-light">EU QUERO!</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3" style="float:left">
+                      <div class="card mb-2" style="border-color: rgba(0, 0, 0, 0);">
+                        <img class="card-img-top"
+                          src="./img/product-2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">	
+                            Fone De Ouvido Jbl Headphone Preto - Jblt500btpto
+                          </h5>
+                          <p class="card-text" style="font-weight: bold;">R$ 228,38.</p>
+                            <div class="progress" style="margin-bottom: 15px;">
+                              <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90% positivos</div>
+                            </div>
+                            <a class="btn btn-light">EU QUERO!</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3" style="float:left">
+                      <div class="card mb-2" style="border-color: rgba(0, 0, 0, 0);">
+                        <img class="card-img-top"
+                          src="./img/product-3.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Smartphone Samsung Galaxy A51 Android Tela 6,5"</h5>
+                          <p class="card-text" style="font-weight: bold;">R$ 1.889,10.</p>
+                            <div class="progress" style="margin-bottom: 15px;">
+                              <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 97%;" aria-valuenow="97" aria-valuemin="0" aria-valuemax="100">97% positivos</div>
+                            </div>
+                            <a class="btn btn-light">EU QUERO!</a>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="col-md-3" style="float:left">
+                    <div class="card mb-2" style="border-color: rgba(0, 0, 0, 0);">
+                        <img class="card-img-top"
+                          src="./img/product-4.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Monitor Gamer LED 24" 1ms Full HD Freesync Widescreen</h5>
+                          <p class="card-text" style="font-weight: bold;">R$ 899,00.</p>
+                            <div class="progress" style="margin-bottom: 15px;">
+                              <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 78%;" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100">78% positivos</div>
+                            </div>
+                            <a class="btn btn-light">EU QUERO!</a>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                  <!--/.First slide-->
+
+                  <!--Second slide-->
+                  <div class="carousel-item active">
+
+                    <div class="col-md-3" style="float:left">
+                    <div class="card mb-2" style="border-color: rgba(0, 0, 0, 0);">
+                        <img class="card-img-top"
+                          src="./img/product-1.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Controle sem Fio - Dualshock 4 Vermelho - PS4</h5>
+                          <p class="card-text" style="font-weight: bold;">R$ 257,50.</p>
+
+                            <div class="progress" style="margin-bottom: 15px;">
+                              <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85% positivos</div>
+                            </div>
+                            <a class="btn btn-light">EU QUERO!</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3" style="float:left">
+                      <div class="card mb-2" style="border-color: rgba(0, 0, 0, 0);">
+                        <img class="card-img-top"
+                          src="./img/product-2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">	
+                            Fone De Ouvido Jbl Headphone Preto - Jblt500btpto
+                          </h5>
+                          <p class="card-text" style="font-weight: bold;">R$ 228,38.</p>
+                            <div class="progress" style="margin-bottom: 15px;">
+                              <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90% positivos</div>
+                            </div>
+                            <a class="btn btn-light">EU QUERO!</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3" style="float:left">
+                      <div class="card mb-2" style="border-color: rgba(0, 0, 0, 0);">
+                        <img class="card-img-top"
+                          src="./img/product-3.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Smartphone Samsung Galaxy A51 Android Tela 6,5"</h5>
+                          <p class="card-text" style="font-weight: bold;">R$ 1.889,10.</p>
+                            <div class="progress" style="margin-bottom: 15px;">
+                              <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 97%;" aria-valuenow="97" aria-valuemin="0" aria-valuemax="100">97% positivos</div>
+                            </div>
+                            <a class="btn btn-light">EU QUERO!</a>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="col-md-3" style="float:left">
+                    <div class="card mb-2" style="border-color: rgba(0, 0, 0, 0);">
+                        <img class="card-img-top"
+                          src="./img/product-4.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Monitor Gamer LED 24" 1ms Full HD Freesync Widescreen</h5>
+                          <p class="card-text" style="font-weight: bold;">R$ 899,00.</p>
+                            <div class="progress" style="margin-bottom: 15px;">
+                              <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 78%;" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100">78% positivos</div>
+                            </div>
+                            <a class="btn btn-light">EU QUERO!</a>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                  <!--/.Second slide-->
+
+                
+
+                </div>
+                <!--/.Slides-->
+
+              </div>
+              <!--/.Carousel Wrapper-->
+          </div>
+
+          
+      </section>
       
 
     <!-- Optional JavaScript -->
